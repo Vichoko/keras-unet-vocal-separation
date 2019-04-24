@@ -4,13 +4,27 @@ Based on [SINGING VOICE SEPARATION WITH DEEP U-NET CONVOLUTIONAL NETWORKS](https
 
 Inspired by [Xiao-Ming/UNet-VocalSeparation-Chainer](https://github.com/Xiao-Ming/UNet-VocalSeparation-Chainer).
 
-# Pretrained Models
+# Pre-trained Models
 
 CCmixter [model](https://users.dcc.uchile.cl/~voyanede/more/trained_models/vocal_20.h5) - loss: 0.0032 - val_loss: 
 0.0032
-CCMixter + DSD100 [model]( https://users.dcc.uchile.cl/~voyanede/more/trained_models/vocal_100_2.h5) - loss: 0.0032 - val_loss: 0.0067
+
+CCMixter + DSD100 [model](https://users.dcc.uchile.cl/~voyanede/more/trained_models/vocal_100_2.h5) - loss: 0.0032 - val_loss: 0.0067
+
+# Usage
+
+1. Install requirements.txt
+2. Install keras backend (TF, Theano, etc)
+3. Open notebooks and follow the instructions
+
+# Datasets
+
+* CCMixter dataset
+* [DSD100](https://sigsep.github.io/datasets/dsd100.html)
 
 # References
+
+## DSD100
 
 @inproceedings{   SiSEC16,   Title = {The 2016 Signal Separation Evaluation Campaign},   Address = {Cham},   Author = {Liutkus, Antoine and St{\"o}ter, Fabian-Robert 
 and Rafii, Zafar and Kitamura, Daichi and Rivet, Bertrand and Ito, Nobutaka and Ono, Nobutaka and Fontecave, Julie},   Editor = {Tichavsk{\'y}, Petr and 
