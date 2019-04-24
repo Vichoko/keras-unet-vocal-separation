@@ -1,5 +1,7 @@
 *.wav
 *.h5
+*.tar.gz
+*.tgz
 
 __pycache__
 .ipynb_checkpoints
